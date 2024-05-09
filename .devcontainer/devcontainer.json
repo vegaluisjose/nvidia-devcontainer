@@ -1,0 +1,17 @@
+{
+    "name": "dev",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "runArgs": [
+        "--gpus=all"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    }
+}
